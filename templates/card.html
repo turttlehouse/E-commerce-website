@@ -1,0 +1,40 @@
+<!--Featured Products-->
+<h1>Featured Product</h1>
+<div class="card-group">
+  {% for x in cloth %}
+  <div class="card">
+    <a href="/aboutproduct/{{x.id}}"><img src="{{x.Pimage.url}}" class="card-img-top" alt="womenphoto" /></a>
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This content is a little bit longer.
+      </p>
+      <p class="card-text">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </p>
+    </div>
+  </div>
+  {% endfor%}
+</div>
+
+<!--All Products-->
+
+<h1>All Product</h1>
+<div class="card-group">
+  {% for x in products %}
+  <div class="card">
+    <a href="/aboutproduct/{{x.id}}"><img src="{{x.Pimage.url}}" class="card-img-top" alt="womenphoto" /></a>
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This content is a little bit longer.
+      </p>
+      <p class="card-text">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </p>
+    </div>
+  </div>
+  {% endfor%}
+</div>
