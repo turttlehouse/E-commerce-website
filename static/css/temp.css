@@ -1,0 +1,33 @@
+.jimee{
+  float: right;
+  width: 100%;
+  height: 1%;
+  margin: 0px;
+  padding: 0%;
+  border: 1px solid blue;
+  color:red;
+  
+}
+.ram{
+  color: red;
+}
+#1{
+  width: 100%;
+  height: auto;
+  justify-items: center;
+}
+
+#2{
+  width: 100%;
+  height: auto;
+  justify-items: center;
+}
+
+#i1{
+  width: 200%;
+  height: auto;
+}
+.a{
+  float: right;
+  background-color: blue;
+}

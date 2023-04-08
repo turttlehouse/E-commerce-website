@@ -16,15 +16,22 @@
       crossorigin="anonymous"
     ></script>
     <title>E-commerce website</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'temp.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/temp.css' %}">
   </head>
 
   <body>
-
+ 
     {% include "nav.html" %} 
     {% include "sidebar.html" %}
     {% include "carousal.html" %}
     {% include "card.html" %}
+    {% include "aboutproduct.html" %}
+
+    <!-- {% if user.username == "admin" %}
+      <h2>image of product:{% include 'aboutproduct.html' %}</h2>
+    {% else %}
+      <h2>only for admins</h2>
+    {% endif %} -->
     
   </body>
 </html>

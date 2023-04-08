@@ -24,7 +24,9 @@
 <div class="card-group">
   {% for x in products %}
   <div class="card">
-    <a href="/aboutproduct/{{x.id}}"><img src="{{x.Pimage.url}}" class="card-img-top" alt="womenphoto" /></a>
+    <a href="/aboutproduct/{{x.id}}"><img src="{{x.Pimage.url}}" class="card-img-top" alt="womenphoto" />
+
+    </a>
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">
@@ -38,3 +40,4 @@
   </div>
   {% endfor%}
 </div>
+

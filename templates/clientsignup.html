@@ -1,0 +1,8 @@
+<h3>Sign up Form For Blood Group Registration</h3> 
+      <form method="post">
+        {% csrf_token %}
+        {{form}}
+        <input type="submit" />
+        </form>
+      <br>
+      <h1 color="blue">ALready have account?</h1> <a href="{% url 'login' %}">LOGIN</a>

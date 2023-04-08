@@ -1,0 +1,8 @@
+
+<p>Add your details here</p>
+<form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{model.as_p}}
+       <input type="submit">
+       
+</form>
